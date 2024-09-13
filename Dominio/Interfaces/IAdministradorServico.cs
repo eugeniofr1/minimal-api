@@ -10,6 +10,7 @@ namespace minimal_api.Infraestrutura.Interfaces
 
         Administrador Incluir(Administrador administrador);
 
+        Administrador? BuscaPorId(int id);
         List<Administrador> Todos(int? pagina);
     }
 }
